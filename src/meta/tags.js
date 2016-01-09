@@ -29,6 +29,9 @@ module.exports = function(Meta) {
 					property: 'og:site_name',
 					content: Meta.config.title || 'NodeBB'
 				}, {
+					property: 'og:type',
+					content: 'website'
+				}, {
 					name: 'keywords',
 					content: Meta.config.keywords || ''
 				}, {
